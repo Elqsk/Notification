@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/main_basic"
+        android:text="기본"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/main_expandable_large_image"
+        android:text="확장/큰 이미지"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/main_expandable_large_block_of_text"
+        android:text="확장/긴 텍스트"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/main_expandable_inbox_style"
+        android:text="확장/인박스 스타일"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/main_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="프로그래스 바"/>
+
+    <Button
+        android:id="@+id/main_heads_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heads UP"/>
+
+    <Button
+        android:id="@+id/main_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메시지 스타일"/>
+
+</LinearLayout>
